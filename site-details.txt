@@ -1,0 +1,21 @@
+STYLE:
+  base font: Arial, Helvetica, sans-serif
+
+  All content is contained in a div that is center-fixed-width at 500px with 75px left/right padding and background: rgba(255,255,255,0.8)
+
+  title has font: Verdana, Geneva, Tahoma, sans-serif
+  title size is 42px w/ letting spacing of 2px
+
+  rgb text is bold and has font 'Courier New', Courier, monospace
+
+  display window has background of rgb(255, 255, 0) and has dimensions 400x200. Its border is 3px solid gray.
+
+  All buttons reduce opacity to 0.5 on hover
+
+LINKS:
+  Anchor tag links to https://en.wikipedia.org/wiki/RGB_color_model and opens in a new window
+
+SCRIPT:
+  a. displays the input color in the display box using the 3 values entered by the user for red, green, and blue.
+  b. shows the name of the rgb color underneath the display box  (see screenshot)
+  c. add buttons in HTML and event listeners and functions in JavaScript for each black/white buttons. The function should turn the preview box either black or white and the rgb code should be listed under the preview box.  white - rgb(255,255,255)  or black - rgb(0, 0, 0). Hint: You don't have to read any values from the user for this part.

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>RGB Colors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1 id="title">RGB Colors</h1>
+      <p>
+        An RGB color is specified by:
+        <span class="rgb">rgb (red, green, blue)</span>
+      </p>
+
+      <p>
+        The parameters red, green and blue specify the intensity of the color: 0
+        <i>(lowest)</i> to 255 <i>(highest)</i>
+      </p>
+
+      <hr />
+
+      <p><b>Try it out for yourself...</b></p>
+
+      <div>
+        <p>
+          <i>Preview Width: </i
+          ><input
+            type="number"
+            class="rgb-input dimension-input"
+            id="width"
+            value="400"
+            min="50"
+            max="400"
+            step="10"
+          />
+          <i>Preview Height: </i
+          ><input
+            type="number"
+            class="rgb-input dimension-input"
+            id="height"
+            value="200"
+            min="50"
+            max="200"
+            step="10"
+          />
+        </p>
+        <p>
+          red:
+          <input
+            type="number"
+            class="rgb-input"
+            id="red"
+            value="255"
+            min="0"
+            max="255"
+            step="5"
+          />
+          green:
+          <input
+            type="number"
+            class="rgb-input"
+            id="green"
+            value="255"
+            min="0"
+            max="255"
+            step="5"
+          />
+          blue:
+          <input
+            type="number"
+            class="rgb-input"
+            id="blue"
+            value="0"
+            min="0"
+            max="255"
+            step="5"
+          />
+        </p>
+      </div>
+
+      <p>
+        <input type="button" value="black" class="button" id="black" />
+        <input type="button" value="white" class="button" id="white" />
+      </p>
+
+      <div id="box"></div>
+
+      <p class="rgb" id="rgb">rgb(255, 255, 0)</p>
+
+      <hr />
+
+      <p>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/RGB_color_model"
+          >Learn more</a
+        >
+        about RGB Color on Wikipedia.
+      </p>
+    </div>
+  </body>
+</html>

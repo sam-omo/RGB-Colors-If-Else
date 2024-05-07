@@ -1,0 +1,42 @@
+Inputs:
+We will be using <button> and <input> elements later on to get data for our programs.
+
+Span:
+An inline element that lets you target content within an HTML block. 
+
+E.g. <p> Hello <span id="name"> Jesse </span> , nice to meet you! </p>
+
+You can then make CSS rules for your spans to style them differently.
+
+Div:
+A block element for grouping multiple block elements. They are used to style groups of blocks.
+
+E.g. 
+<div id="theDiv">
+  <h1>Welcome!</h1>
+  <p>You can use this div to style us!</p>
+  <p>And we will all follow that rule!</p>
+</div>
+
+
+Inline vs Block Elements:
+
+Inline: 
+ - Occupy only as much width as they need
+ - They don't start in a new line
+ - They do NOT have top and bottom margins/padding
+ - They are allowed to be inside block elements
+
+Examples of inline elements: <img> <a> <span> <input> <button> <b> (bold) <i> (italic)
+
+Block:
+ - consume the entire width available
+ - They always start in a new line
+ - They have top and bottom margins/padding
+ - Block elements CANNOT be inside inline elements
+
+ Examples of blocks: <p> <h2> <div> <ul> <ol>
+
+ <a href="http://example.com/"><h1>This is invalid HTML</h1></a>	← Incorrect
+
+ <h1><a href="http://example.com/">This is invalid HTML</a></h1>	← Correct
